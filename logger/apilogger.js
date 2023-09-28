@@ -23,7 +23,7 @@ const logger = winston.createLogger({
 });
 
 const webServerIP = '127.0.0.1';
-const webTargetIP = 'scheff-external-logger.sa.f5demos.com';
+const webTargetIP = 'www-xc.mikelabs.online';
 const webTargetPort = 80;
 const webServerPort = process.env.WEBPORT;
 const logServerPort = process.env.LOGGERPORT;

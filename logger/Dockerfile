@@ -8,7 +8,7 @@ ENV WEBPORT=3000
 ENV LOGLEVEL=info
 
 # set the SAN for the cert to be created (note you can replace the cert in the docker run command)
-ENV WEBTARGET=apilogger.f5networks.local
+ENV WEBTARGET=apilogger.mikelabs.online
 
 WORKDIR /usr/src/logger
 
